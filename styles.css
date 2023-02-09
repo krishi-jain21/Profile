@@ -7,15 +7,40 @@
 
 .main{
     font-family: sans-serif;
-    margin-top: 250px;
+    color:#809BCE;
     font-size:xx-large;
     text-align:center;
+    height:100vh;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.herosection-container{
+    height:80vh;
+    width:90vw;
+    background: linear-gradient(#D6EADF,#d6eadf00);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.content1-inside-hero  {
+    display: inline-block;
+    line-height: 0.3em;
+    margin-bottom: 30px;
+    border-bottom: pink solid 30px; 
+}
+
+
 
 .navigation{
     width:100%;
     height:90px;
-    background-color: black;
+    background-color: #809BCE;
     color:white;
 }
 
@@ -28,7 +53,15 @@
 .navigation ul{
     display:flex;
     flex-direction:  row;
+    justify-content: space-between;
     align-items: baseline;
+}
+
+.options-in-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    
 }
 #Me
 {
@@ -36,4 +69,5 @@
     font-weight: 700;
     
 }
+
 
